@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    欢迎光临，今天是{{ var }}。<br/>
+    今天值班的有：<br/>
+    {% for data in list %}      <!--用大括号和百分号括起来的是控制结构，还有if-->
+        <li>{{ data }}</li>
+    {% endfor %}
+
+    任务：<br/>        <!--了解一下如何在页面打印表格，以及如何迭代-->
+        <table border="1">
+            {% for key,value in task.items() %}   <!--[(key,value),(key,value),(key,value)]-->
+                <tr>
+                    <td>key<td/>
+                    <td>value<td/>
+                </tr>
+            {% endfor %}
+        </table>
+</body>
+</html>
