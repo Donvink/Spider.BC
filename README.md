@@ -13,7 +13,8 @@ douban_flask：应用Flask框架、Echarts、WordCloud技术将数据库中的�
 
 [爬虫](./douban_renting/douban.py)
 
-[网页](./douban_flask/templates/index.html)
+[Flask](./douban_flask/app.py)
+
 
 ****
 	
