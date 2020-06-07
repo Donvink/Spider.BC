@@ -11,6 +11,10 @@ flask_demo：测试使用Flask框架。
 douban_flask：应用Flask框架、Echarts、WordCloud技术将数据库中的租房信息以网页的形式展示出来。
 
 
+[爬虫](./douban_renting/douban.py)
+
+[网页](./douban_flask/templates/index.html)
+
 ****
 	
 |作者|钟余东|
