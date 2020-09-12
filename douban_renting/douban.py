@@ -1,6 +1,6 @@
 # -*- coding = utf-8 -*-
 # @Time: 2020/5/30 19:57
-# @Author: Yudong Zhong
+# @Author: Donvink
 # @File: douban.py
 # @Software: PyCharm
 
